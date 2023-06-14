@@ -105,7 +105,7 @@ os.remove(backup_file)
         s3_secret_key = input("Enter S3 secret key: ")
 
         # Get the cron schedule from the command-line arguments
-        cron_schedule = "* */12 * * *"
+        cron_schedule = "0 */12 * * *"
         if "-cSchedule" in args:
             cron_index = args.index("-cSchedule") + 1
             if cron_index < len(args):
