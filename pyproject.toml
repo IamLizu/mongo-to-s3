@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "mongo-to-s3"
-version = "0.0.8"
+version = "0.0.9"
 dependencies = [
     "boto3",
 ]
